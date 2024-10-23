@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.green-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-button, .red-button, .black-button {
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-button {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.red-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.black-button {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/* General reset styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.report-container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background-color: white; /* Background color of the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.report-container h1 {
+    text-align: center; /* Center the text */
+    color: #333; /* Dark text color */
+}
+
+.report-container label {
+    display: block; /* Each label in a new line */
+    margin-bottom: 5px; /* Space below the label */
+    color: #555; /* Slightly lighter text color */
+}
+
+.report-container input[type="text"],
+.report-container select,
+.report-container textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.report-container input[type="text"]:focus,
+.report-container select:focus,
+.report-container textarea:focus {
+    border-color: #4CAF50; /* Green border color on focus */
+    outline: none; /* No outline on focus */
+}
+
+.report-container button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 15px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s; /* Background color transition effect */
+}
+
+.report-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
